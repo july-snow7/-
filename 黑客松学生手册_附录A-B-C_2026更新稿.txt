@@ -1,0 +1,256 @@
+AI Future 黑客松学生手册附录 A/B/C
+2026 更新稿（供王建权审阅）
+
+说明：
+1. 本稿用于替换 25 版学生手册中的附录 A、B、C。
+2. 重点按 2026 年最新机构方向、可用工具和全球小团队案例重写。
+3. 目的不是做行业长报告，而是给参赛学生提供明确、可执行的灵感入口。
+
+------------------------------------------------------------
+附录A  灵感起点（2026版）
+------------------------------------------------------------
+
+一、机构方向预测：Y Combinator 2026 方向信号
+
+YC 2026 的核心信号很明确：AI 已经不只是 feature，而是 foundation。它们最关注的不是“更聪明的聊天框”，而是能真正进入服务、科学、硬件和企业工作流的系统。
+
+1. AI-native service companies
+YC 明确强调：下一波机会不是卖工具，而是直接把服务做掉。重点领域包括保险经纪、财税审计、合规、医疗行政等。
+对黑客松的启发：优先做“流程替代”而不是“功能叠加”，项目要能回答“原来谁在做、现在为什么可以被 AI 接管”。
+
+2. AI-native discovery engines
+YC 认为科学发现会从 copilot 走向闭环系统，尤其是药物发现、材料科学、蛋白工程等领域。
+对黑客松的启发：科学发现类题目不要停在“帮研究员总结文献”，而要尽量做到“提出假设、生成实验、分析结果、推动下一步”。
+
+3. Company Brain
+YC 今年反复强调企业中枢层：把散落在邮件、Slack、票据、数据库里的知识变成可执行的 skills file，让智能体能安全、稳定地干活。
+对黑客松的启发：公共系统、企业管理、科研协作、校园治理类项目，都可以往“知识中枢 + 工作流执行”方向靠。
+
+4. Physical AI / industrial stack
+YC 继续把 AI 往物理世界推：农业、机器人、硬件供应链、工业维护、空间计算、推理芯片都在视野里。
+对黑客松的启发：工业现场和一线服务类题目，要明确真实约束，不要只做屏幕内产品。
+
+5. Voice and high-trust workflows
+YC 把语音、电话、医疗、合规等高信任场景看得很重，因为这些场景里，AI 一旦可靠，就能直接替代大量人工工作。
+对黑客松的启发：语音类项目要盯住“准确率、可控性、可追责”，不要只做语音噱头。
+
+二、机构方向预测：a16z 2026 信号
+
+a16z 的 2026 讨论重点和 YC 基本同向，但更强调“AI 进入系统层”和“真实使用行为”。
+
+1. Physical AI and the Industrial Stack
+重点是 AI 离开屏幕，进入工厂、施工现场、供应链和关键基础设施。真实世界里，可靠性和端到端系统比单点模型更重要。
+对应赛道：工业现场、机器人、制造、能源、公共基础设施。
+
+2. The Enterprise Orchestration Layer
+核心变化是：企业 AI 从单个 copilot 走向多智能体协调，能跨团队、跨工具、跨流程执行任务。
+对应赛道：公共系统、企业管理、科研协作、内部流程自动化。
+
+3. The Agentic Interface
+AI 正在从 chat 走向 action。界面会越来越 agent-readable，产品设计不再只服务人，也要服务智能体。
+对应赛道：日常工作流、办公助手、项目协作、运营中台。
+
+4. Voice Agents and High-Stakes Trust
+语音是 AI 做真实工作的快速入口，尤其适合监管严格、准确性要求高的场景。
+对应赛道：一线服务、医疗、客服、电话系统、教育陪练。
+
+5. Top consumer usage signal
+a16z 的 Consumer AI 100 提醒我们：真正高频的消费者需求，集中在创作、生产力、个人组织、陪伴、搜索和垂直工具。
+对应赛道：日常生活、个人助理、邮件、理财、学习、健康管理。
+
+三、与本届五大赛道的对照
+
+1. 工业现场
+优先参考：Physical AI、industrial stack、hardware supply chain、industrial maintenance、robotics。
+
+2. 一线服务
+优先参考：AI-native service companies、voice agents、call center、healthcare admin、insurance brokerage、compliance。
+
+3. 公共系统
+优先参考：Company Brain、enterprise orchestration、SOX / audit / observability、document filling、workflow automation。
+
+4. 科学发现
+优先参考：AI-native discovery engines、personalized medicine、materials science、protein engineering。
+
+5. 日常生活
+优先参考：consumer AI、email assistant、personal finance、learning tutor、calorie tracking、personal organization。
+
+四、给参赛学生的选题提示
+
+1. 先找真实流程，再找模型。
+2. 先找高频痛点，再找好看的 Demo。
+3. 先想“谁会付钱 / 谁会使用”，再想“用什么模型”。
+4. 附录 A 的作用是给灵感，不是让大家照抄题目。
+
+------------------------------------------------------------
+附录B  可用工具推荐（2026版）
+------------------------------------------------------------
+
+原则：工具只负责加速，不负责替你定义问题。能跑出 Demo、能稳定展示、能在现场复现，比工具数量更重要。
+
+一、头脑风暴与协作
+
+- Notion：梳理问题、分工、版本记录。
+- Lark / 飞书：多人协作、任务同步、会中记录。
+- Figma / FigJam：信息架构、流程图、页面草图。
+- Miro：快速拉工作流和用户旅程图。
+
+二、方向检索与案例参考
+
+- YC Requests for Startups：看官方方向。
+- YC Startup Directory：看真实公司在做什么。
+- a16z AI 页面 / Podcast：看机构级信号。
+- Product Hunt：看近期热门产品和界面趋势。
+- Perplexity / ChatGPT / Claude / Gemini Deep Research：做快速对比和资料压缩。
+
+三、原型开发与 Demo 搭建
+
+- Cursor：适合代码型小队快速写原型。
+- Windsurf：适合自然语言驱动的开发。
+- Claude Code：适合终端型工作流和复杂任务拆解。
+- Replit：适合快速在线跑通全栈 Demo。
+- Bolt / Lovable / v0：适合快速搭前端和交互壳。
+- GitHub Codespaces：适合多人协作和环境统一。
+- Docker：适合打包可复现环境，减少现场翻车。
+
+四、多模态内容生成
+
+- Midjourney：视觉概念图、海报草图。
+- Runway：视频生成、镜头级内容。
+- PixVerse / 即梦 / 可灵 / 海螺：短视频和生成式演示素材。
+- HeyGen：人物讲解、虚拟演示。
+- Suno / Udio：音频、配乐、样片。
+
+五、录屏备份与展示
+
+- OBS：最稳妥的屏幕录制和直播备份。
+- ScreenFlow：Mac 上做演示录屏很顺手。
+- QuickTime：轻量、简单、兜底用。
+- Loom：适合快速生成分享链接。
+
+六、路演材料与问答准备
+
+- PowerPoint / Keynote：路演主文件。
+- Canva：快速做视觉版式。
+- Excalidraw：画架构、流程和交互图。
+- ChatGPT / Claude / Gemini：模拟评委问答、压缩表达、润色文案。
+
+七、现场使用建议
+
+1. Demo 一定提前录屏备份。
+2. 不要只准备“会演示”，要准备“断网也能讲”。
+3. 原型优先稳定，不要追求工具堆叠。
+4. 路演材料优先图示化，少写大段空话。
+
+------------------------------------------------------------
+附录C  全球小团队AI创新产品特色案例（2026更新）
+------------------------------------------------------------
+
+说明：这一部分优先选全球范围内、小团队、AI 原生、公开信息较充分的案例，尽量避免中国案例占比过高。目的不是做融资榜，而是让学生看到“少数人 + 正确方向 + 真场景”也能做出有影响力的产品。
+
+一、一线服务 / 高信任场景
+
+1. Callab AI
+YC Spring 2026 公司，做 enterprise telephony 的 AI voice agents。它切的是传统电话系统和联络中心，核心价值是直接接入旧系统，而不是逼客户重搭一套架构。
+可借鉴点：真正的高价值，不一定来自最酷的模型，而来自最难改的旧流程。
+
+2. Arden
+YC Spring 2026 公司，做 SOX / internal audit 的 AI agents，自动拉取证据、测试控制、生成审计材料。
+可借鉴点：合规和审计这种高重复、强规则、高成本的流程，很适合做成 AI-native service。
+
+3. Hedge
+YC Spring 2026 公司，做 AI native specialty insurance company。
+可借鉴点：保险不是只能做工具，也可以直接做服务本体，关键是把定价、承保和风险控制做进系统里。
+
+二、工业现场 / 物理世界
+
+4. Prototyping.io
+YC Spring 2026 公司，做 AI-native mechanical manufacturing platform，帮助硬件团队更快完成设计、打样和生产。
+可借鉴点：工业类项目的核心不是“做个看起来像 AI 的界面”，而是把设计到制造的迭代链路缩短。
+
+5. InLoop Robotics
+YC Spring 2026 公司，做 AI-native fulfillment powered by robotics，强调在真实仓储中持续学习。
+可借鉴点：机器人项目要敢进真实现场，失败也要能形成训练数据。
+
+6. Pairio
+YC Spring 2026 公司，做 AI-native industrial maintenance software，帮助工程师快速定位设备故障。
+可借鉴点：一线工业维修、设备巡检、工单知识库，都是很硬的黑客松方向。
+
+三、公共系统 / 企业基础设施
+
+7. Sazabi
+YC Spring 2026 公司，做 AI-native observability platform，面向快速变化的工程团队。
+可借鉴点：公共系统和企业中台类项目，最重要的是把分散数据变成可执行的判断。
+
+8. Prism
+YC Spring 2026 公司，做 AI-native recruiting agency。
+可借鉴点：招聘不是简单检索，而是筛选、匹配、沟通、推进整个链路。
+
+9. StableBrowse
+YC Spring 2026 公司，做 browser for AI agents。
+可借鉴点：未来很多产品不是“给人用的浏览器”，而是“给 agent 用的浏览器”。
+
+四、日常生活 / 高频消费级产品
+
+10. Lovable
+自然语言生成完整 Web 应用的平台，适合非技术人快速做产品原型。
+可借鉴点：把复杂系统抽象成一句需求，是典型的 AI 原生产品思路。
+
+11. Base44
+对话式 all-in-one 编程平台，用户可以用自然语言完成完整应用构建。
+可借鉴点：不是让用户学会代码，而是让产品自动组织代码、数据库和基础能力。
+
+12. Fyxer AI
+AI 邮件助手，深度集成 Gmail / Outlook，做邮件分类、草拟回复和会议纪要。
+可借鉴点：高频个人工作流里，只要能省时间、少切换，就很容易形成粘性。
+
+13. Cal AI
+AI 卡路里追踪应用，主打拍照识别食物并减少手动记录成本。
+可借鉴点：消费级产品最重要的是“使用即见效”，而不是功能多。
+
+五、科学工具 / 创作工具
+
+14. Campfire
+AI 重构财务工作流，聚焦账单核对、收入预测和尽调等财务流程。
+可借鉴点：财务、运营、法务这种“文本多、流程重、重复高”的岗位，天然适合 AI 重做。
+
+15. Harvey
+法律助手平台，切入律所案头工作和合同审查。
+可借鉴点：高门槛行业不等于不能做 AI，反而是 AI 最能先解决效率问题的地方。
+
+16. OpenArt / PixVerse / Arcads
+这类产品分别代表图像视频生成、视频生成和 AI 广告视频自动化方向。
+可借鉴点：创作类产品要同时解决“产出快”和“风格稳定”两个问题。
+
+六、给学生的总结
+
+1. 小团队不等于小价值。
+2. 真问题比大叙事更重要。
+3. 能进入流程的产品，比只能演示的产品更有竞争力。
+4. 黑客松最该学的，不是照搬案例，而是识别案例背后的场景和机制。
+
+------------------------------------------------------------
+参考来源（公开链接）
+------------------------------------------------------------
+
+1. Y Combinator Requests for Startups
+https://www.ycombinator.com/rfs
+
+2. YC Spring 2026 / Summer 2026 公司与方向页
+https://www.ycombinator.com/companies/industry/ai
+
+3. a16z AI 内容页
+https://a16z.com/ai/
+
+4. a16z Big Ideas 2026: Physical AI and the Industrial Stack
+https://a16z.com/podcast/big-ideas-2026-physical-ai-and-the-industrial-stack/
+
+5. a16z Big Ideas 2026: The Enterprise Orchestration Layer
+https://a16z.com/podcast/big-ideas-2026-the-enterprise-orchestration-layer/
+
+6. a16z Big Ideas 2026: Voice Agents and High-Stakes Trust
+https://a16z.com/podcast/big-ideas-2026-voice-agents-and-high-stakes-trust/
+
+7. The Top 100 Most Used AI Apps in 2025
+https://a16z.com/podcast/the-top-100-most-used-ai-apps-in-2025/
+
